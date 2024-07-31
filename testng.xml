@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Muzafar/IdeaProjects/Peko">
+        <classes>
+            <class name="tests.ForgotPasswordPageTest">
+            <methods>
+                <include name="forgotPasswordTest"/>
+            </methods>
+        </class>
+            <class name="tests.LoginPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+    <class name="tests.SingupPageTest">
+        <methods>
+            <include name="signupTest"/>
+        </methods>
+    </class>
+            <class name="tests.BillPaymentsPageTest">
+                <methods>
+                    <include name="billPaymentsTest"/>
+                    <include name="duPrepaidTest"/>
+                    <include name="duPostpaidTest"/>
+                    <include name="etisalatPrepaidTest"/>
+                </methods>
+            </class>
+</classes>
+</test>
+</suite>
